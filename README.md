@@ -24,6 +24,6 @@ In our own games, after 10 serious playtests and counting, we have found that th
 
 ## License
 
-D20 Tactics is the work of Creation Games, LLC. and is made available under the (Creative Commons)['/LICENSE.md'] license. We require attribution when republishing or producing derived works from these documents.
+D20 Tactics is the work of Creation Games, LLC. and is made available under the [Creative Commons]('/LICENSE.md') license. We require attribution when republishing or producing derived works from these documents.
 
 Portions of these document are derived works from the 
