@@ -22,6 +22,10 @@ There are 3 main rules modules. Each is fully independent of the other and entir
 
 In our own games, after 10 serious playtests and counting, we have found that the first module fits neatly into almost any combat where relevant. The second module is only necessary when a combat would have 30 or more creatures. And the 3rd substantially changes the game but greatly speeds up games with an unusually large number of players or a truly large (50-200) numbers of creatures on the field.
 
+## Initiative helper notebook
+
+You will need to install python3 and jupyter on your machine. Open the provided notebook and follow the directions.
+
 ## License
 
 D20 Tactics is the work of Creation Games, LLC. and is made available under the [Creative Commons]('/LICENSE.md') license. We require attribution when republishing or producing derived works from these documents.
