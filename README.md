@@ -6,7 +6,7 @@ And in all ages a certain barbaric warfare has been waged with soldiers of tin a
 
 ## Overview
 
-D20 Tactics is a system for running large scale battles with the rules and content found in the Dungeons and Dragons *Player's Handbook*, *Monster Manual*, and *Dungeon Master's Guide* by Wizards of the Coast, or with the free (D&D System Reference Document)[/SRD_CC_v5.2.1.pdf], from which some of these rules derive. They should also be compatible with most other D20 system games with a little bit of work.
+D20 Tactics is a system for running large scale battles with the rules and content found in the Dungeons and Dragons *Player's Handbook*, *Monster Manual*, and *Dungeon Master's Guide* by Wizards of the Coast, or with the free [D&D System Reference Document](/SRD_CC_v5.2.1.pdf), from which some of these rules derive. They should also be compatible with most other D20 system games with a little bit of work.
 
 These rules can be played as a standalone tabletop wargame in the manner of Games Workshop's *Warhammer* games and many others. They can be used for large combat scenarios within a game of Dungeons and Dragons or another 5th edition D20 system game. They can be used for a variety of scenario-based DM-adjudicated games not fitting neatly into either category. D20 Tactics is a toolbox.
 
