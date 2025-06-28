@@ -20,7 +20,9 @@ There are 3 main rules modules. Each is fully independent of the other and entir
 
 ## Playtesting thus far
 
-In our own games, after 10 serious playtests and counting, we have found that the first module fits neatly into almost any combat where relevant. The second module is only necessary when a combat would have 30 or more creatures. And the 3rd substantially changes the game but greatly speeds up games with an unusually large number of players or a truly large (50-200) numbers of creatures on the field.
+In our own games, after 10 serious playtests and counting, we have found that the first module fits neatly into almost any combat where relevant. The second module is only necessary when a combat would have more than a dozen or two creatures. And the 3rd substantially changes the game but greatly speeds up games with an unusually large number of players or a truly large (50-200) numbers of creatures on the field.
+
+We think the whole system is fun at any scale, but not every combat needs to use any of it in order to use it for occasional larger battles.
 
 ## Initiative helper notebook
 
