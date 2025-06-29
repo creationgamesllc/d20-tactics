@@ -1,33 +1,41 @@
-# D20 Tactics v0.1
+# D20 Tactics v0.2
 
-```
-And in all ages a certain barbaric warfare has been waged with soldiers of tin and lead and wood - H. G. Wells
-```
+> "And in all ages a certain barbaric warfare has been waged with soldiers of tin and lead and wood." – H. G. Wells
 
 ## Overview
 
-D20 Tactics is a system for running large scale battles with the rules and content found in the Dungeons and Dragons *Player's Handbook*, *Monster Manual*, and *Dungeon Master's Guide* by Wizards of the Coast, or with the free [D&D System Reference Document](/SRD_CC_v5.2.1.pdf), from which some of these rules derive. They should also be compatible with most other D20 system games with a little bit of work.
+D20 Tactics is a supplemental rules system designed to manage large-scale battles using content from the *Player's Handbook*, *Monster Manual*, and *Dungeon Master's Guide* published by Wizards of the Coast, or the freely available [D&D System Reference Document](SRD_CC_v5.2.1.pdf), from which portions of these rules derive. The rules should also be compatible with other games using the 5th Edition D20 system, with minor adjustments.
 
-These rules can be played as a standalone tabletop wargame in the manner of Games Workshop's *Warhammer* games and many others. They can be used for large combat scenarios within a game of Dungeons and Dragons or another 5th edition D20 system game. They can be used for a variety of scenario-based DM-adjudicated games not fitting neatly into either category. D20 Tactics is a toolbox.
+These supplemental rules can be utilized as:
 
-There are 3 main rules modules. Each is fully independent of the other and entirely optional.
+- A standalone tabletop tactical miniatures wargame, akin to Games Workshop's *Warhammer* series.
+- A framework for running large combat encounters within Dungeons & Dragons or other D20-compatible games.
+- A toolkit for designing wholly new ways to play miniatures battle.
 
-* [Partial Advantage and Tactical Position](/PARTIAL_ADVANTAGE_AND_TACTICAL_POSITION.md)
+D20 Tactics consists of three modular components, each fully independent and optional:
 
-* [Formations of Creatures](/FORMATIONS_OF_CREATURES.md)
+- [Partial Advantage and Tactical Position](/PARTIAL_ADVANTAGE_AND_TACTICAL_POSITION.md)
+- [Formations of Creatures](/FORMATIONS_OF_CREATURES.md)
+- [Chaos Initiative](/CHAOS_INITIATIVE.md)
 
-* [Chaos Initiative](/CHAOS_INITIATIVE.md)
+## Playtesting Experience at v0.1
 
-## Playtesting thus far
+After conducting over ten significant playtests in our games, we have found:
 
-In our own games, after 10 serious playtests and counting, we have found that the first module fits neatly into almost any combat where relevant. The second module is only necessary when a combat would have more than a dozen or two creatures. And the 3rd substantially changes the game but greatly speeds up games with an unusually large number of players or a truly large (50-200) numbers of creatures on the field.
+- The **Partial Advantage and Tactical Position** module integrates smoothly into virtually any relevant combat scenario.
+- The **Formations of Creatures** module becomes beneficial primarily in combats involving more than approximately one or two dozen creatures.
+- The **Chaos Initiative** module significantly alters the gameplay experience but greatly accelerates encounters featuring an exceptionally large number of participants, such as battles involving 50–200 creatures.
 
-We think the whole system is fun at any scale, but not every combat needs to use any of it in order to use it for occasional larger battles.
+The system is designed to enhance fun at various scales. However, incorporating these modules into every combat is not necessary. Their utility shines in specialized, larger-scale scenarios.
 
-## Initiative helper notebook
+## Initiative Helper Notebook
 
-You will need to install python3 and jupyter on your machine. Open the provided notebook and follow the directions.
+To assist in managing initiative during large battles, install Python 3 and Jupyter Notebook on your computer, then open and follow the instructions provided within the supplied notebook.
 
 ## License
 
-D20 Tactics is the work of Creation Games, LLC. and is made available under the [Creative Commons]('/LICENSE.md') license. We require attribution when republishing or producing derived works from these documents.
+D20 Tactics is created by Creation Games, LLC, and distributed under a [Creative Commons Attribution 4.0 International License](/LICENSE.md). When republishing or creating derivative works from these documents, attribution is required as follows:
+
+> "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at [https://www.dndbeyond.com/srd](https://www.dndbeyond.com/srd). The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode).
+>
+> Additionally it includes material from D20 Tactics v0.2 by Creation Games LLC, available at [https://github.com/creationgamesllc/d20-tactics](https://github.com/creationgamesllc/d20-tactics). D20 Tactics is licensed under the Creative Common Attribution 4.0 International License, available at [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode)."

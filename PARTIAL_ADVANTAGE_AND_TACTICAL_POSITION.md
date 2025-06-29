@@ -4,64 +4,60 @@
 
 ### D20 Tests with Partial Advantage
 
-A roll may have partial advantage. Multiple instances of partial advantage do not stack, nor do they combine to become standard advantage. A roll with standard advantage or disadvantage cannot have partial advantage.
+1. A roll can benefit from partial advantage. Multiple instances of partial advantage do not stack or combine to form standard advantage. If a roll already has standard advantage or disadvantage, it cannot also have partial advantage.
 
-To make a D20 Test with Partial advantage, roll the D20 and a D4 and add the results together before adding any other modifiers. A roll is a critical success only if the D20 is a 20. Rerolls of this roll are made without partial advantage unless otherwise specified.
+2. To perform a D20 Test with partial advantage, roll a d20 and a d4, adding both results together before applying other modifiers. A critical success occurs only if the d20 roll is a 20. Unless otherwise noted, rerolls do not include partial advantage.
 
-A rule or ability that removes advantage from a roll will also remove partial advantage.
+3. Any rule or effect that removes advantage from a roll also removes partial advantage.
 
-Abilities that only apply to attack rolls made with advantage, such as a Rogue's Sneak Attack feature, **are** available on attacks made with partial advantage.
+4. Features requiring advantage on an attack roll, such as a Rogue’s Sneak Attack, function normally with partial advantage.
 
 ### D20 Tests with Partial Disadvantage
 
-As with partial advantage, partial disadvantage does not combine or stack. A roll with standard advantage or disadvantage cannot also have partial disadvantage.
+5. Partial disadvantage follows similar rules to partial advantage. It does not stack or combine into standard disadvantage. If a roll already has standard advantage or disadvantage, it cannot also have partial disadvantage.
 
-If a D20 Test has at least one source of partial disadvantage and at least one source of partial advantage, it is not modified by either.
+6. A roll affected by both partial advantage and partial disadvantage simultaneously receives neither benefit nor penalty.
 
-To make a D20 Test with Partial disadvantage, roll the D20 and a D4. If the D20 shows a 20, ignore the D4, otherwise subtract D4 from the roll before applying other modifiers.
+7. To perform a D20 Test with partial disadvantage, roll a d20 and a d4. If the d20 roll is 20, ignore the d4. Otherwise, subtract the d4 result from the d20 before applying other modifiers.
 
-A rule or ability that removes disadvantage from a roll will also remove partial disadvantage.
+8. Any rule or effect that removes disadvantage from a roll also removes partial disadvantage.
 
 ## Tactical Position
 
 ### High Ground
 
-When making a ranged attack against a target within short range from a standing terrain elevation 10 ft. or more above an enemy's elevation, make the attack with partial advantage.
+1. A ranged attack made from at least 10 feet above the target's elevation within short range gains partial advantage.
 
-When making a melee attack against a target within the reach of the attack from a standing terrain elevation 2 ft. or more above an enemy's elevation, make the attack with partial advantage.
+2. A melee attack gains partial advantage when made from an elevation of at least 2 feet above the target and within the attacker's reach.
 
-Elevation differences resulting from aerial position or swimming position under water do not make the attack with partial advantage.
+3. Elevation due to flight or underwater positioning does not grant partial advantage.
 
 ### Flanking
 
-When you attack a creature you are adjacent to, if another of that creature's enemies is adjacent to a diffent edge of that creature's square base, you make a flanking attack. That attack has partial advantage.
+4. When making a melee attack, if you and an ally are adjacent to different edges of an enemy’s space, you make the attack with partial advantage.
 
-## Tactical Position (further options)
+## Additional Tactical Options
 
-*These rules conflict with the core rules presented in the Dungeons and Dragons **Player's Handbook** and the System Reference Document, and are intended to be even more optional than the rest of this section*
+*These optional rules replace or conflict with core rules in the **Player’s Handbook** and the **System Reference Document** and should be considered highly optional.*
 
 ### Half Cover
 
-An attack made against a creature with half cover has partial disadvantage. This replaces the +2 to AC.
+1. Attacks against a creature with half cover have partial disadvantage, replacing the standard +2 bonus to AC.
 
 ### Lightly Obscured
 
-An attack made against a creature that is lightly obscured (such as when in dim light) has partial disadvantage.
+2. Attacks against a creature in a lightly obscured area, such as dim light, have partial disadvantage.
 
 ### Three-Quarters Cover
 
-An attack made against a creature with three quarters cover has standard disadvantage. This replaces the +5 to AC.
+3. Attacks against a creature with three-quarters cover have standard disadvantage, replacing the standard +5 bonus to AC.
 
-### Difficult Terrain Etc.
+### Difficult Terrain and Obstacles
 
-Attacks against a creature occupying or passing through terrain or an obstacle that costs additional movement, such as climbing for a creature without a climb speed, receive partial advantage. Creatures in such a position make dexterity saves with partial disadvantage.
+4. Attacks targeting creatures occupying or moving through difficult terrain or obstacles that require additional movement, such as climbing without a climb speed, gain partial advantage.
+
+5. Creatures occupying or moving through difficult terrain or obstacles that require additional movement make Dexterity saving throws with partial disadvantage.
 
 ### "DM's Best Friend"
 
-Partial advantage and partial disadvantage are only slightly greater adjustments to a roll than a +2 or -2 and may be used in circumstances not covered by publisehd rules when the DM feels that the chance of success or failure has increased due to circumstances.
-
-## Note on Formations:
-
-Creatures in a formation are subject to varying tactical position modifications to their attack and other rolls. For instance: if only some occupy high ground, then only those attack rolls are made with partial advantage.
-
-The exception is with a shared dexterity save. The formation makes its save with the most *disadvantaged* positioning of the creatures in the formation. For instance, if every creature in a formation is behind 3/4 cover except for one occupying difficult terrain with no cover, they make a dexterity save with partial disadvantage.
+6. Partial advantage and partial disadvantage slightly exceed the standard ±2 modifier. They can be used by the DM in circumstances not covered explicitly by published rules, reflecting situations where the likelihood of success or failure is moderately impacted by external conditions.
