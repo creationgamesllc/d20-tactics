@@ -64,4 +64,4 @@ To roll with partial advantage or disadvantage, add or subtract a D4 from the D2
 
 ### "DM's Best Friend"
 
-6. Partial advantage and partial disadvantage slightly exceed the standard ±2 modifier. They can be used by the DM in circumstances not covered explicitly by published rules, reflecting situations where the likelihood of success or failure is moderately impacted by external conditions.
+6. Partial advantage and partial disadvantage slightly exceed the standard ±2 modifier and give about half the increase or decrease to chance of success that advantage or disadvantage do. They can be used by the DM in circumstances not covered explicitly by published rules, reflecting situations where the likelihood of success or failure is moderately impacted by external conditions.
