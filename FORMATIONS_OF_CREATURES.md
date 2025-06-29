@@ -1,103 +1,133 @@
 # Formations of Creatures
 
-Formations are designed to simplify record keeping and speed up play for larger numbers of creatures. For the most part, a formation is more restricted than the equivalent number of individual creatures, and thus formations need not be used for smaller fights.
+Formations simplify record-keeping and accelerate gameplay when managing large numbers of identical creatures. Generally, formations impose more restrictions than managing creatures individually, making them most suitable for larger combats.
+
+Formations will never consist of unique characters such as Player Characters. They are for minions, mobs, and military units.
 
 ## Definition
 
-*A formation is one or more creatures with identical stat blocks sharing a shared restrictive status.*
+*A formation consists of one or more creatures with identical stat blocks, sharing a restrictive game state.*
 
-*The DM or scenario determine which creatures begin combat in formation. Formations are only broken up or combined during combat by DM fiat.*
+*The DM or scenario defines which creatures begin combat in formation. Formations can only be altered or disbanded by DM decision.*
 
-## Quick and Dirty Summary
+## Quick Reference
 
-* Formations are creatures with identical game state other than position and death with a shared HP pool. 
+1. Creatures in a formation are identical except for their position and status as alive / dying (equivalent to being at 0 HP) / dead. They share a stat block and all game conditions and status. They act on a shared turn on a shared initiative.
 
-* As the HP pool is reduced to or below multiples of their individual HP maximum, creatures damaged that turn die.
+***Example***: *A formation of 8 Goblin Archers each occupy a different square on a battlegrid but are otherwise the same. Either they all have the fear condition or none of them do, either they all are subject to the Bless spell or none are, and so on.*
 
-* Creatures in formation share equal numbers of all resources, share status conditions, and share all other game effects and state other than position.
+2. The creatures have a shared HP pool equal to their individual maximum HP multiplied by the number of creatures in the formation.
 
-* They move and act individually on a shared turn, but must end their turn less than their movement speed apart from one another and must take the same actions every turn.
+***Example***: *The goblins have an individual max of 10 HP each and there are 6 of them, so the HP pool of the formation is 60 HP.*
 
-* If half or more of the creatures in a formation would gain an effect or status or condition, they all do, otherwise none of them do. If any creature in a formation spends a resource, all are considered to have spent the same resource.
+3. When the shared HP pool decreases to multiples of individual creature maximum HP, creatures damaged that turn creatures begin dying, one per multiple of the maximum of HP decreased.
+
+***Example***: *Some of the archers are attacked and they take a total of 21 damage, reducing their HP pool to 39 HP. This is a reduction from their maximum by just over double their individual max HP of 10 but less than three times, so 2 goblins begin dying and must make a modified form of death saving throw (described in the detailed rules) at the end of each turn.*
+
+4. Creatures move and act individually during a shared turn but must remain within their movement speed of each other and take identical actions, bonus actions, and reactions with identical choices other than targets.
+
+***Example***: *On their turn the goblins each move 30 feet, both beginning and ending in relatively tight formation where each goblin is within 30 feet of each other goblin. Each occupies a distinct square on the battle grid at all times. After movement, 5 of the surviving goblin archers have a clear shot against an enemy, but one is behind total cover. 5 goblin archers attack and one must decline to act.*
+
+5. If half or more creatures in formation would gain a status, condition, or other game effect, the entire formation gains it; otherwise, none do. Creatures in formation always have resources (such as spells slots or ability use per day) equal to the creature in the formation with the least.
+
+***Example***: *A wizard casts Hypnotic Pattern on the goblin formation. The area of the spell overlaps 2 of the surviving 4 goblins. They make a shared Wisdom saving throw (see the detailed rules) and fail. Since more than half of the goblins would suffer the effects of the spell, they all do.*
 
 ## Detailed Rules
 
-1. **Golden Rule of Formations**: Between any two turns or initiative positions within a shared turn, if two creatures not currently dead or making death saving throws in a formation exchanged places, there would be no game effect.
+## Initiative
 
-### Initiative
-
-2. All creatures in a formation act on a single shared turn with a single shared initiative value. That initiative value can only be altered (such as via the Alert feat) if it is altered for at least half of the creatures in the formation, in which case all initiative for the formation is altered.
+1. Creatures in formation share one initiative roll. Adjustments to initiative apply only if they affect at least half the creatures in formation, in which case they apply to all of them.
 
 ### Actions and Bonus Actions
 
-3. On a given shared turn, each creature in a formation must make the same choices for their action or bonus action or else decline to act or use the bonus action. The exception is the attack, magic, or shove action which may select different targets, but must make the same choices in all other respects such as spell or weapon selection.
+2. Each creature in formation must choose identical actions or bonus actions each turn, except for choosing different targets for attacks, magic, or shove actions.
 
-### Positioning
+### Movement and Positioning
 
-4. If any two creatures in the formation are more than their movement speed apart, the formation cannot take actions or bonus actions other than dash, dodge, or disengage.
+3. Creatures in a formation move individually during their shared turn, obeying all normal rules regarding movement.
 
-5. While status effects and conditions are shared between all creatures in a formation (see below), the effects of position such as cover, difficult terrain, high ground, and so on are not. Attack rolls by and against creatures in formation consider their specific positioning for range and die roll modificiations etc.
+4. Formations of creatures must remain in a close formation where no two creatures are more than their movement speed apart from one another.
 
-### Status Effects and Conditions
+5. If they are separated, all creatures in the formation can only perform the dash, dodge, or disengage actions and move toward the creature in the direction of the creature they are farthest from.
 
-6. If at the end of a turn (or initiative position within the Chaos Initiative shared turn), half or more of the creatures in a formation have a condition, such as prone, or effect, such as the ongoing effects of spells, class abilities, and magic items, then all of them gain the status effect or condition. If fewer have that effect or condition, they all lose it. The exception to this rule is the dead condition or dying status as described below.
+6. If they return to proximity to one another after or during their movement, they can then act as normal.
 
-### HP & Temporary HP pool
+7. A player may not voluntarily move creatures in a way that they end their turn out of formation.
 
-7. A formation begins combat with an HP pool usually equal to their individual maximum HP multiplied by the number of creatures in the formation. It may not begin equal to or less than than the individual maximum HP multiplied by the number of creatures in the formation reduced by one.
+8. Position-based effects like cover or difficult terrain apply individually rather than collectively.
 
-8. A formation has a pool of temporary HP as well. If one or more creatures in a formation would gain temporary HP during a single turn (or initiative position within the Chaos Initiative shared turn), the player controlling that creature may elect to replace all current temporary HP with the sum of the temporary HP gained.
+### Status Conditions
 
-9. If one or more creatures would receive healing, add the total to the HP pool up to the number of non-dead creatures in the formation multiplied by their individual HP maximum.
+9. Status conditions or effects apply to all creatures in formation if at least half have that condition or effect at the end of a turn. Otherwise, none of the creatures gain or retain the condition. This includes all statuses that in any way alter a creature's game state, whether they are helpful or harmful.
+
+***Example***: A cleric casts Bless on three creatures in a formation of 5. All 5 creatures gain the benefits of the spell. They are attacked by multiple attacks with the topple weapon mastery ability. Two creatures are hit and are knocked prone, but at the end of the turn only those two are prone, so none of them are.
+
+### Hit Points (HP) and Temporary HP
+
+10. Formations begin with an HP pool equal to individual creature maximum HP multiplied by the number of creatures.
+
+11. Temporary HP pools may be refreshed entirely if one or more creatures gain temporary HP simultaneously or during one turn. The new pool equals the sum of the temporary HP gained by the creatures in one turn.
+
+12. Healing is added to the HP pool, limited by the maximum HP times the number of living creatures in formation.
+
+13. A healing effect may not restore more HP to a formation than the number of creatures affected multiplied by the individual maximum HP.
 
 ### Damage and Death
 
-10. If a creature in a formation receives damage, first reduce the shared temporary HP pool and then reduce the shared HP pool by the amount of damage received.
+14. Damage first subtracts from temporary HP, then from the formation's shared HP pool.
 
-11. A damage effect such as a fireball, an attack, or a multiattack cannot do more damage than the number of creatures in the formation affected multiplied by their individual maximum HP.
+15. A single damage source can't exceed the combined maximum HP of affected creatures.
 
-12. A formation with half their starting HP pool or less is considered to all be bloodied.
+16. Formations with half or fewer HP are considered bloodied.
 
-13. When the HP pool drops to or below the current number of creatures in that formation reduced by one multiplied by their individual maximum HP, one or more creatures in that formation begin dying. This is a status that is not shared by the rest of the formation.
+17. Creatures begin dying when shared HP falls to or below multiples of individual HP maximums. This condition applies individually, not collectively.
 
-14. To figure our how many creatures begin dying, answer the question "What is the least number of creatures where that number times their individual maximum HP would be greater than their current HP?". Creatures begin dying until that many remain.
+18. Determine dying creatures by reducing formation size until the HP pool exceeds the combined HP of the remaining creatures.
 
-**For example:**
+**Example:** A formation of six goblins (10 HP each, 60 total) loses HP to 50 (one goblin dying), 41 (still one dying), or 28 (three goblins dying).
 
-*A formation of 6 goblins with 10 individual maximum HP begin combat with 60 HP. If they are reduced to 50, one goblin would enter a state of dying, if they were reduced to 41, still only one goblin would begin dying. If on a later turn, they were reduced to 28 HP, an further 2 goblins would enter a state of dying.*
+19. The DM or controlling player chooses dying creatures from those damaged. Additional dying creatures are chosen freely from unaffected members in the unusual circumstance where it would be necessary.
 
-*Each time, the number of goblins not dead or dying multiplied by their individual maximum HP is equal to or greater than the current HP pool, but by no more than one individual HP maximum.*
+### Dying and Death
 
-This sounds complicated, but in practice it means that as the HP pool is reduced by multiples of the individual HP maximum, creatures begin dying.
+20. Dying creatures from formations must each make a separate standard DC 10 Constitution saving throws at the end of their turn. One failure results in death. Do not track successes, the creature must be stabilized by an external source.
 
-15. When the rules call for one or more creatures to begin dying, the controlling player or DM should select the appropriate number of creatures from among those that received damage this turn. In unusual circumstances. If more creatures than received damage would begin dying, the controlling player chooses from among the remaining creatures that did not receive damage freely.
+21. Dying creatures instantly die if separated by more than their movement speed from the most distant creature in the formation.
 
-### Death Saving Throws
+22. Stabilized creatures separated from the formation remain alive but cannot be returned to action by the formation regaining HP if separated.
 
-16. A creature from a formation that is dying must make a death saving throw at the end of each of its turns. The death save for creatures from formations is a DC 10 constitution save with all usual bonuses and modifiers. When the creature fails one save, it dies, and no amount of successful saves stabilize it.
+23. Stabilized or healed creatures don’t rejoin combat unless the shared HP pool allows for revival as described below.
 
-17. If any creature in a formation ends its turn or the shared Chaos Initiative turn more than its speed away from a dying creature in the same formation, the dying creature instantly dies.
+24. Dying or stabilized creatures rejoin combat if healing raises the HP pool sufficiently to increase the HP pool above a higher multiple of the individual HP maximum.
 
-18. If any creature in a formation ends its turn or the shared Chaos Initiative turn more than its speed away from a stabilized creature from the same formation. The stabilized creature is removed from the encounter but alive afterward.
+25. Dying or stabilized creatures rejoin until the number of active creatures in the formation multiplied by the individual hp maximum exceeds the HP pool or until there are no more creatures that are not dead remaining.
 
-19. A creature in a formation that receives healing or is stabilized will not be considered dead at the end of combat, but it does not return to the fight unless the following condition is met:
+26. Dying creatures rejoin the formation before stabilized ones do.
 
-20. If a formation is healed such that the HP pool exceeds the number of non-dying creatures multiplied by the individual maximum HP of the creatures, one or more dying or stabilized creatures revives and rejoins the formation in combat. This does not apply to dead creatures.
+***Example***: *After losing being reduced to 28 HP, three goblins in the formation begin dying. At the end of their turn they individually make DC 10 constitution saving throws. One fails and immediately dies.*
 
-21. If a dead creature from a formation is revived such as by a spell, it is considered to be stabilized unless that effect also restores enough HP for it to return to combat by the above rule.
+*Before their next turn a cleric casts healing word on one goblin in the formation (either alive or dying) and makes a medicine check to stabilize one of the dying goblins. Healing word restores 5 HP, raising the formation to 33 HP. One is stabilized but still down, the other stands up to rejoin their comrades in battle.*
+
+27. Revived creatures from spells or similar effects are considered stabilized unless additional healing conditions for returning to combat are met.
 
 ### Shared D20 Checks
 
-22. Except for attack rolls, if creatures in a formation would need to make the same D20 check for the same cause, such as an athletics check to climb a wall or a saving throw to resist a Fireball spell, they make a single shared save. Use the worst save bonus and disadvantage or partial disadvantage any of those creatures would make individually for the roll.
+28. Formation members make a single shared roll (using the worst bonuses and conditions if they differ) for identical D20 checks or saving throws arising from the same trigger (such as all saving to avoid damage from a Fireball spell, or all making an Athletics check to climb a cliff). The exception to this is the modified death saving throw described above and attack rolls.
 
 ### Reactions
 
-23. If a creature in a formation takes a reaction such as making an opportunity attack or casting Shield, all the other creatures in that formation must take the same reaction during that turn or shared initiative position within the Chaos Initiative shared turn or else take no reactions until the start of their next turn.
+29. All creatures in formation must use identical reactions within a turn or decline to react. If they do, no creature in the formation may take a further reaction until the beginning of the formation's next turn.
 
-### Equal resources
+### Equal Resources
 
-24. If at the end of any turn, the creatures in a formation differ in available resources, such as spell slots, uses per day of limited use powers, healing potions in their posession, and so on, they all have the lowest number of that resource any individual creature has.
+30. All formation members equalize their available resources (spell slots, items, abilities) to the lowest available number held by any individual.
 
 ## Movement Trays
 
-*Movement trays may be used to keep formations clear on the battle grid, but have no game effect in and of themselves*
+*Movement trays may visually assist in handling formations but have no game effect and do not bind creatures' positions to the tray*
+
+## Interaction with Chaos Initiative
+
+1. Formations receive a single shared order.
+
+2. References to a turn in rules 7, 8, 11, and 29 refer to any single creature or formation's initiative position in the shared Chaos Initiative turn.
