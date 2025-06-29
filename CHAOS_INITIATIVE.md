@@ -2,9 +2,9 @@
 
 *Digital tools are recommended for this module. A sample Python Jupyter notebook for quickly generating initiative orders is provided, and a more comprehensive tool is in development.*
 
-## The big idea
+## Quick reference.
 
-Players write orders for the characters and creatures under their control prior to knowing the initiative order, which is determined fresh each turn. Orders may to a limited degree include contingencies for unknown battlefield state.
+Players write orders for the characters and creatures under their control prior to knowing the initiative order, which is determined fresh each turn. Orders may to a limited degree include "or else" contingencies for unknown battlefield state rendering actions or movement impossible.
 
 The DM then determines initiative for the turn and resolves each order in the appropriate sequence.
 

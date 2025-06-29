@@ -1,4 +1,4 @@
-# D20 Tactics v0.2
+# D20 Tactics v0.1.1
 
 > "And in all ages a certain barbaric warfare has been waged with soldiers of tin and lead and wood." – H. G. Wells
 
@@ -18,13 +18,13 @@ D20 Tactics consists of three modular components, each fully independent and opt
 - [Formations of Creatures](/FORMATIONS_OF_CREATURES.md)
 - [Chaos Initiative](/CHAOS_INITIATIVE.md)
 
-## Playtesting Experience at v0.1
+## Playtesting Experience at v0.1.1
 
-After conducting over ten significant playtests in our games, we have found:
+After conducting ten significant playtests and many short experimental skirmishes, we have found:
 
 - The **Partial Advantage and Tactical Position** module integrates smoothly into virtually any relevant combat scenario.
 - The **Formations of Creatures** module becomes beneficial primarily in combats involving more than approximately one or two dozen creatures.
-- The **Chaos Initiative** module significantly alters the gameplay experience but greatly accelerates encounters featuring an exceptionally large number of participants, such as battles involving 50–200 creatures.
+- The **Chaos Initiative** module significantly alters the gameplay experience but greatly accelerates encounters featuring an exceptionally large number of participants, such as battles involving 50–200 creatures or with 8 or more players.
 
 The system is designed to enhance fun at various scales. However, incorporating these modules into every combat is not necessary. Their utility shines in specialized, larger-scale scenarios.
 
