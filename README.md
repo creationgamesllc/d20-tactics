@@ -1,4 +1,4 @@
-# D20 Tactics v0.2
+# D20 Tactics v0.1.1
 
 > "And in all ages a certain barbaric warfare has been waged with soldiers of tin and lead and wood." – H. G. Wells
 
@@ -18,7 +18,7 @@ D20 Tactics consists of three modular components, each fully independent and opt
 - [Formations of Creatures](/FORMATIONS_OF_CREATURES.md)
 - [Chaos Initiative](/CHAOS_INITIATIVE.md)
 
-## Playtesting Experience at v0.2
+## Playtesting Experience at v0.1.1
 
 After conducting ten significant playtests and many short experimental skirmishes, we have found:
 
