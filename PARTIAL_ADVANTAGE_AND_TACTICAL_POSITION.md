@@ -1,5 +1,9 @@
 # Partial Advantage and Tactical Position
 
+## Quick Reference
+
+To roll with partial advantage or disadvantage, add or subtract a D4 from the D20 roll. Attacking from high ground, from a flanking position, or against a creature on difficult terrain grants partial advantage. Other circumstances may use these modifications as well.
+
 ## Partial Advantage and Disadvantage
 
 ### D20 Tests with Partial Advantage
